@@ -17,7 +17,7 @@ class Settings(BaseSettings):
     """Application configuration loaded from environment or .env file."""
     # LLM Settings
     llm_provider: str = "gemini"  # "gemini" | "openai"
-    llm_model: str = "gemini-2.5-flash"
+    llm_model: str = "gemini-3.8-flash"
     google_api_key: Optional[str] = None
     openai_api_key: Optional[str] = None
 
